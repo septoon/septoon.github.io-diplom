@@ -55,15 +55,6 @@ h4 {
     text-transform: uppercase;
 }
 
-h6 {
-    margin: 0;
-    font-family: 'open sans';
-    font-weight: normal;
-    font-size: 14px;
-    color: #fff;
-    text-transform: uppercase;
-}
-
 p {
     margin: 0;
     font-family: 'open sans';
@@ -119,6 +110,10 @@ p {
     box-shadow: 0 0 24px rgba(10, 14, 52, 1);
 }
 
+.btn:focus {
+    outline: none;
+}
+
 .btn:nth-child(1) {
     padding: 11px 0 18px 38px;
     margin-right: 25px;
@@ -131,8 +126,16 @@ p {
     text-align: left;
 }
 
-span {
-    font-weight: bold;
+text {
+    margin: 0;
+    font-family: 'open sans';
+    font-weight: normal;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+strong {
     float: left;
 }
 

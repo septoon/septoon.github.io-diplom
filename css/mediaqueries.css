@@ -281,10 +281,6 @@
         font-size: 14px;
     }
 
-    h6 {
-        font-size: 8px;
-    }
-
     p {
         font-size: 15px;
     }
@@ -311,9 +307,9 @@
     }
 
     .btn {
+        box-sizing: border-box;
         width: 100%;
         max-width: 280px;
-        justify-content: center;
     }
 
     .btn:nth-child(1) {
@@ -322,13 +318,23 @@
         padding: 4px 0 8px 0;
     }
 
+    .btn:nth-child(1) .icon {
+        height: 24px;
+        margin-left: 28.57%;
+    }
+
     .btn:nth-child(2) {
         margin: 0;
         padding: 6px 0 5px 0;
     }
 
-    .icon {
-        height: 22px;
+    .btn:nth-child(2) .icon {
+        height: 24px;
+        margin-left: 29.64%;
+    }
+
+    text {
+        font-size: 8px;
     }
                         /*=====ATHLETS=====*/
     .athlets {
