@@ -263,7 +263,7 @@
     }
 }
 
-@media (max-width: 641px) {
+@media (max-width: 640px) {
                                     /*Заголовки и текст*/
     h1 {
         font-size: 28px;
