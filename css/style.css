@@ -276,6 +276,15 @@ h1 span {
                                     /*===ACTIVE===*/
 .active_wrapper {
     display: flex;
+}
+
+.active_wrapper:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
+.active_img {
+    overflow: hidden;
+    width: 50%;
     position: relative;
 }
 
@@ -321,11 +330,6 @@ h1 span {
 
 .active_item p {
     font-size: 24px;
-}
-
-.active_img {
-    overflow: hidden;
-    width: 50%;
 }
 
 .active_img img {
