@@ -446,6 +446,7 @@
     
 
     .footer_title {
+        flex-direction: column;
         margin-top: 99px;
         margin-bottom: 76px;
     }
