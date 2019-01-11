@@ -18,11 +18,11 @@
                         /*====HEADER====*/
     .header{
         background-image: url(../images/football_767.jpg);
+        padding-top: 38px;
     }
 
     .logo_text {
         width: 205px;
-        margin-top: 38px;
         margin-bottom: 160px;
     }
 
@@ -69,7 +69,6 @@
         left: -20.7%;
         margin: 0;
         padding: 0;
-        z-index: 2;
     }
 
     .athlets__img {
@@ -167,11 +166,11 @@
                                 /*=====FOOTER=====*/
     .footer {
         background-image: url(../images/game_1280.jpg);
+        padding-top: 126px;
     }
 
     .footer_title {
         width: 100%;
-        margin-top: 126px;
         margin-bottom: 280px;
     }
 
@@ -219,12 +218,12 @@
                             /*=====HEADER=====*/
     .header{
         background-image: url(../images/football_767.jpg);
+        padding-top: 33px;
         padding-bottom: 84px;
     }
 
     .logo_text {
         width: 133px;
-        margin-top: 33px;
         margin-bottom: 128px;
     }
 
@@ -424,10 +423,13 @@
                                 /*=====FOOTER=====*/
     .footer {
         background-image: url(../images/game_767.jpg);
+        padding-top: 99px;
     }
 
     .footer_title {
         width: 100%;
+        flex-direction: column;
+        margin-bottom: 76px;
     }
 
     .footer_icon {
@@ -442,13 +444,6 @@
 
     .footer_icon_logo {
         height: 47px;
-    }
-    
-
-    .footer_title {
-        flex-direction: column;
-        margin-top: 99px;
-        margin-bottom: 76px;
     }
 
     .footer_title_item {
@@ -473,6 +468,7 @@
 
     .logo_text_footer {
         width: 133px;
-        margin: 82px 0 10px 0;
+        margin-top: 82px;
+        margin-bottom: 10px;
     }
 }
