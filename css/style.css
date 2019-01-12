@@ -156,12 +156,14 @@ h1 span {
     box-sizing: border-box;
     justify-content: flex-end;
     position: absolute;
-    margin-left: 20%;
+    margin-left: 0;
+    border: 5px solid red;
+    width: 50%;
+    display: flex;
 }
 
 .athlets__img {
     margin-top: 27px;
-    margin-right: 52px;
 }
 
 .athlets_item {
