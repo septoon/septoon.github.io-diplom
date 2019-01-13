@@ -282,22 +282,26 @@ h1 span {
     flex-direction: row-reverse;
 }
 
+.active_wrapper:nth-child(2) .active_img .number_wrapper {
+    left: 0;
+}
+
 .active_img {
-    overflow: hidden;
     width: 50%;
     position: relative;
 }
 
 .number_wrapper {
     position: absolute;
-    margin-top: 11%;
+    bottom: 0;
+    margin-bottom: 35%;
+    left: 100%;
+    transform: translateX(-83px);
     color: #fff;
     font-size: 24px;
     font-weight: bold;
     padding: 58px 70px;
     background-color: #5e42b0;
-    left: 50%;
-    transform: translateX(-84px);
 }
 
 .number {
