@@ -291,6 +291,10 @@ h1 span {
     position: relative;
 }
 
+.active_wrapper:nth-child(1) .active_img .number_wrapper {
+    margin-bottom: 30%;
+}
+
 .number_wrapper {
     position: absolute;
     bottom: 0;
