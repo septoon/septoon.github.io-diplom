@@ -3,7 +3,7 @@
         padding: 50px 55px;
     }
 }
-
+        /*Планшеты*/
 @media (min-width: 641px) and (max-width: 960px) {
                                             /*Заголовки и текст*/
     h1 {
@@ -228,7 +228,7 @@
         font-size: 28px;
     }
 }
-
+        /*Телефоны*/
 @media (max-width: 640px) {
                                     /*Заголовки и текст*/
     h1 {
