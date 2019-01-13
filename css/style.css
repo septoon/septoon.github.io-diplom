@@ -156,8 +156,6 @@ h1 span {
     box-sizing: border-box;
     justify-content: flex-end;
     position: absolute;
-    margin-left: 0;
-    border: 5px solid red;
     width: 50%;
     display: flex;
 }
@@ -292,15 +290,11 @@ h1 span {
 
 .number_wrapper {
     position: absolute;
-    box-sizing: border-box;
     margin-top: 11%;
     color: #fff;
     font-size: 24px;
     font-weight: bold;
-    padding-top: 62px;
-    padding-left: 70px;
-    width: 168px;
-    height: 168px;
+    padding: 58px 70px;
     background-color: #5e42b0;
     left: 50%;
     transform: translateX(-84px);

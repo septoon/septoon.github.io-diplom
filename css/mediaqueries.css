@@ -1,5 +1,7 @@
 @media (min-width: 961px) and (max-width: 1700px) {
-    
+    .number_wrapper {
+        padding: 50px 55px;
+    }
 }
 
 @media (min-width: 641px) and (max-width: 960px) {
@@ -75,6 +77,10 @@
         padding: 0;
     }
 
+    .athlets_wrapper {
+        padding-top: 61px;
+    }
+
     .athlets__img {
         margin: 0;
     }
@@ -135,10 +141,7 @@
     }
 
     .number_wrapper {
-        width: 116px;
-        height: 116px;
-        padding-top: 43px;
-        padding-left: 45px; 
+        padding: 40px 45px;
         margin-top: 65%;
         left: 15%;
     }
@@ -170,6 +173,7 @@
     }
 
     .footer_title {
+        flex-direction: column;
         width: 100%;
         margin-bottom: 280px;
     }
@@ -185,12 +189,43 @@
     }
 
     .footer_title_item p {
+        font-size: 36px;
+        font-weight: normal;
         text-align: center;
     }
 
     .logo_text_footer {
         margin-top: 55px;
         margin-bottom: 22px;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 664px) {
+    .buttons {
+        margin: 0 auto;
+        width: 87.5%;
+        flex-direction: column;        
+    }
+
+    .btn:nth-child(1) {
+        margin-right: 0;
+        margin-bottom: 14px;
+    }
+
+    .btn:nth-child(2) {
+        margin-left: 0;
+    }
+
+    .players_preview {
+        left: 8%;
+    }
+    
+    .footer_title_item h2 {
+        font-size: 64px;
+    }
+
+    .footer_title_item p {
+        font-size: 28px;
     }
 }
 
@@ -234,8 +269,7 @@
     .buttons {
         margin: 0 auto;
         width: 87.5%;
-        flex-direction: column;
-        
+        flex-direction: column;        
     }
 
     .icon {
@@ -275,7 +309,7 @@
 
     .athlets_preview {
         width: 0;
-        margin-left: 21.9%;
+        margin-left: 76.5%;
         top: 55px;
     } 
 
@@ -384,11 +418,8 @@
     }
 
     .number_wrapper {
-        width: 70px;
-        height: 70px;
         font-size: 14px;
-        padding-top: 27px;
-        padding-left: 26px;
+        padding: 24px 28px;
         margin-top: 95%;
         left: 32.5%;
     }
