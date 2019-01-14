@@ -164,6 +164,10 @@ h1 span {
     margin-top: 27px;
 }
 
+.athlets_wrapper {
+    width: 100%;
+}
+
 .athlets_item {
     padding: 91px 10.6% 73px 52.5%;
 }   
