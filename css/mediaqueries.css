@@ -1,7 +1,6 @@
 @media (min-width: 961px) and (max-width: 1700px) {
     .be_active h2 {
         font-size: 60px;
-        margin-bottom: 10%;
     }
 
     .be_active p {
@@ -32,7 +31,8 @@
                         /*====HEADER====*/
     .header{
         background-image: url(../images/football_767.jpg);
-        padding-top: 38px;
+        padding-top: 39px;
+        padding-bottom: 91px;
     }
 
     .logo_text {
@@ -42,16 +42,20 @@
 
     h1 {
         margin-left: 11.7%;
-        margin-bottom: 222px;
+        margin-bottom: 293px;
     }
     
     h1 span {
-        margin-left: 195px;
+        margin-left: 100px;
     }
 
     .icon {
         width: 42px;
         height: 42px;
+    }
+
+    .buttons {
+        width: 655px;
     }
 
     .icon2 {
@@ -60,12 +64,12 @@
     }
 
     .btn:nth-child(1) {
-        padding: 16px 61px 19px 41px;
+        padding: 16px 67px 19px 41px;
         margin-right: 15px;
     }
 
     .btn:nth-child(2) {
-        padding: 16px 89px 16px 53px;
+        padding: 16px 87px 16px 57px;
         margin-left: 15px;
     }
 
@@ -78,6 +82,7 @@
     }
 
     .athlets_preview {
+        width: 430px;
         position: absolute;
         top: 94px;
         left: -20.7%;
@@ -99,8 +104,26 @@
         padding: 0 4.3% 0 38%;
     }
 
+    .athlets_item:nth-child(2) {
+        padding-bottom: 37px;
+    }
+
+    .athlets_item:nth-child(3) {
+        padding-top: 32px;
+        padding-bottom: 41px;
+    }
+
+    .athlets_item:nth-child(4) {
+        padding-top: 33px;
+        padding-bottom: 36px;
+    }
+
     .athlets_item h2 {
-        margin-bottom: 37px;
+        margin-bottom: 27px;
+    }
+
+    .athlets_item h3 {
+        margin-bottom: 20px;
     }
                         /*====PLAYERS====*/
     .players {
@@ -109,39 +132,47 @@
 
     .players_preview {
         position: absolute;
-        left: 6.5%;
+        left: 334px;
+        margin: 0;
     }
 
     .players_item {
-        margin-top: 51px;
+        margin-top: 61px;
         padding: 0 40.1% 0 4.2%;
     }
 
-    .players_item h2 {
-        margin-bottom: 27px;
+    .players_item h3 {
+        margin-bottom: 20px;
     }
 
     .players__img {
-        margin-top: 66px;
-        margin-left: -6%;
+        margin-top: 39px;
     }
 
     .players_item:nth-child(2) {
         padding-top: 27px;
-        padding-bottom: 33px;
+        padding-bottom: 37px;
         margin: 0;
     }
   
     .players_item:nth-child(3) {
         margin: 0;
         padding-top: 34px;
-        padding-bottom: 36px;
+        padding-bottom: 37px;
+    }
+
+    .players_item:nth-child(3) h3 {
+        margin-bottom: 18px;
     }
 
     .players_item:nth-child(4) {
         margin: 0;
         padding-top: 34px;
-        padding-bottom: 36px;
+        padding-bottom: 39px;
+    }
+
+    .players_item:nth-child(4) h3 {
+        margin-bottom: 15px;
     }
                                 /*====ACTIVE====*/
     .active_wrapper {
@@ -163,13 +194,26 @@
         left: 32px;
     }
 
+    .active_wrapper:nth-child(2) .active_item {
+        padding-top: 56px;
+        padding-left: 32px;
+    }
+
+    .active_wrapper:nth-child(2) .active_item .be_active h2 {
+        margin-bottom: 10px;
+    }
+    
+    .active_wrapper:nth-child(3) .active_item .be_active h2 {
+        margin-bottom: 10px;
+    }   
+
     .active_img {
         width: 100%;
     }
 
     .active_item {
         width: 100%;
-        padding: 66px 12.5% 94px 32px;
+        padding: 66px 12.5% 105px 32px;
     }
 
     .be_active {
@@ -177,7 +221,8 @@
     }
 
     .active_item h2 {
-        margin-bottom: 0;
+        margin-left: -6px;
+        margin-bottom: 10px;
     }
                                 /*=====FOOTER=====*/
     .footer {
@@ -202,6 +247,7 @@
     }
 
     .footer_title_item p {
+        margin-top: -8px;
         font-size: 36px;
         font-weight: normal;
         text-align: center;
@@ -227,10 +273,6 @@
 
     .btn:nth-child(2) {
         margin-left: 0;
-    }
-
-    .players_preview {
-        left: 8%;
     }
     
     .footer_title_item h2 {
@@ -279,6 +321,11 @@
         margin-bottom: 80px;
     }
 
+    h1 span {
+        margin-top: 12px;
+        margin-left: 42px;
+    }
+
     .buttons {
         margin: 0 auto;
         width: 87.5%;
@@ -321,11 +368,16 @@
     }
 
     .athlets_preview {
-        width: 0;
-        margin-left: 76.5%;
-        top: 55px;
+        width: 192px;
+        margin-left: 70px;
+        /*margin-left: 76.5%;*/
+        top: 80px;
     } 
 
+    .athlets__img {
+        margin-top: 0;
+    }
+    
     .athlets_wrapper {
         width: 100%;
         padding: 0;
@@ -333,14 +385,8 @@
 
     .athlets_item {
         margin: 0;
-        padding-top: 8px;
-        padding-left: 6.5%;
-        padding-right: 11%;
-    }         
-
-    .athlets_item h2 {
-        margin-bottom: 156px;
-    }
+        padding: 9px 11% 230px 6.5%;
+    }      
 
     .athlets_item h3 {
         padding-left: 26px;
@@ -365,51 +411,63 @@
     .athlets_item:nth-child(3) {        
         background: #f5f4f9;
         padding-top: 53px;
+        padding-bottom: 55px;
     }
 
 
     .athlets_item:nth-child(4) {
         background: #5e42b0;
         padding-top: 53px;
-        padding-bottom: 53px;
+        padding-bottom: 55px;
         padding-right: 14%;
     }
  
                                  /*=====PLAYERS=====*/
     .players_preview {
         margin-top: 80px;
-        margin-left: 3.8%;
+        margin-left: 11px;
+    }
+
+    .players__img {
+        margin-top: 0;    
     }
 
     .players_item {
-        padding: 7px 12% 229px 6.3% ;
+        padding: 7px 12% 230px 6.3% ;
     }
 
     .players_item h3 {
         padding-left: 26px;
+        margin-bottom: 18px;
     }
 
     .players_item:nth-child(2) {
+        padding-top: 76px;
         background: #fafafa;
     }
 
     .players_item:nth-child(2) h3 {
-        margin-bottom: 24px;
+        margin-bottom: 18px;
     }
 
     .players_item:nth-child(3) {
         padding-top: 53px;
-        padding-bottom: 50px;
+        padding-bottom: 52px;
     }
 
-    .players_item:nth-child(3n+1) h3 {
-        margin-bottom: 20px;
+    .players_item:nth-child(3) h3 {
+        margin-bottom: 18px;
     }
 
     .players_item .number_players {
         font-size: 14px;
         margin-top: 3.5px;
         border-bottom: 4px solid #8f7bc8;
+    }
+
+    .players_item:nth-child(4) {
+        padding-top: 50px;
+        padding-bottom: 53px;
     }
 
     .players_item:nth-child(4) .number_players {
@@ -428,6 +486,26 @@
 
     .active_wrapper:nth-child(2) .active_img .number_wrapper {
         left: 20px;
+    }
+
+    .active_wrapper:nth-child(2) .active_item {
+        padding-top: 32px;
+        padding-left: 20px;
+        padding-right: 8%;
+    }
+
+    .active_wrapper:nth-child(2) .active_item .be_active h2 {
+        margin-bottom: 12px;
+    }
+
+    .active_wrapper:nth-child(3) .active_item {
+        padding-top: 28px;
+        padding-bottom: 67px;
+        padding-right: 8%;
+    }
+
+    .active_wrapper:nth-child(3) .active_item .be_active h2 {
+        margin-bottom: 12px;
     }
 
     .active_img {
@@ -450,7 +528,7 @@
 
     .active_item {
         width: 100%;
-        padding: 9% 0 23% 20px;
+        padding: 25px 23% 77px 20px;
     }
 
     .be_active {
@@ -464,17 +542,19 @@
     .active_item h2 {
         font-size: 28px;
         margin: 0;
+        margin-bottom: 12px;
     }
                                 /*=====FOOTER=====*/
     .footer {
         background-image: url(../images/game_767.jpg);
         padding-top: 99px;
+        padding-bottom: 10px;
     }
 
     .footer_title {
         width: 100%;
         flex-direction: column;
-        margin-bottom: 76px;
+        margin-bottom: 73px;
     }
 
     .footer_icon {
@@ -501,6 +581,7 @@
     }
 
     .footer_title_item p {
+        margin: 0;
         text-align: center;
         font-size: 14px;
         font-weight: normal;
@@ -514,6 +595,12 @@
     .logo_text_footer {
         width: 133px;
         margin-top: 82px;
-        margin-bottom: 10px;
     }
 }
+
+
+
+/*
+261
+
+*/
