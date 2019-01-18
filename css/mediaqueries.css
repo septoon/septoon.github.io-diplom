@@ -318,6 +318,7 @@
     }
 
     .header h1 {
+        margin-left: 20px;
         margin-bottom: 80px;
     }
 
@@ -597,10 +598,3 @@
         margin-top: 82px;
     }
 }
-
-
-
-/*
-261
-
-*/
