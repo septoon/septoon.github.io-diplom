@@ -188,8 +188,14 @@ h1 span {
     font-size: 18px;
     font-weight: bold;
     margin-top: 6px;
-    border-bottom: 5px solid #8f7bc8;
-    border-radius: 2px 2px;
+}
+
+.athlets_item .number_athlets::before {
+    position: absolute;
+    bottom: 9px;
+    content: url(../images/underline_blue.png);
+    width: 20px;
+    height: 5px;
 }
 
 .athlets_item:nth-child(3) {
@@ -204,8 +210,8 @@ h1 span {
     padding-bottom: 56px; 
 }
 
-.athlets_item:nth-child(4) .number_athlets {
-    border-bottom: 5px solid #efefef;
+.athlets_item:nth-child(4) .number_athlets::before {
+    content: url(../images/underline_white.png);
 }
 
 .athlets_item:nth-child(4) p {
@@ -239,8 +245,14 @@ h1 span {
     font-size: 18px;
     font-weight: bold;
     margin-top: 6px;
-    border-bottom: 5px solid #8f7bc8;
-    border-radius: 2px 2px;
+}
+
+.players_item .number_players::before {
+    position: absolute;
+    bottom: 9px;
+    content: url(../images/underline_blue.png);
+    width: 20px;
+    height: 5px;
 }
 
 .players_item:nth-child(2) {
@@ -266,7 +278,10 @@ h1 span {
 
 .players_item:nth-child(4) .number_players {
     color: #9173e6;
-    border-bottom: 5px solid #fff;
+}
+
+.players_item:nth-child(4) .number_players::before {
+    content: url(../images/underline_white.png);
 }
 
 .players_item:nth-child(4) p {
@@ -324,10 +339,11 @@ h1 span {
     background-color: #5e42b0;
 }
 
-.number {
-    border-bottom: 5px solid #8f7bc8;
-    border-radius: 2px 2px;
-    width: 26px;
+.number::before {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 1px;
+    content: url(../images/underline_active.png);
 }
 
 .active_item {

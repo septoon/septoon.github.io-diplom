@@ -380,7 +380,6 @@
     .athlets_preview {
         width: 192px;
         margin-left: 70px;
-        /*margin-left: 76.5%;*/
         top: 80px;
     } 
 
@@ -405,12 +404,14 @@
     .athlets_item .number_athlets {
         font-size: 14px;
         margin-top: 3.5px;
-        border-bottom: 4px solid #8f7bc8;
     }
 
-    .athlets_item:nth-child(4) .number_athlets {
-        border-bottom: 4px solid #efefef;
-    }    
+    .athlets_item .number_athlets::before {
+        content: url(../images/underline_blue_sm.png);
+        bottom: 7px;
+        width: 10px;
+        height: 4px;
+    }
 
     .athlets_item:nth-child(2) {
         background: #fafafa;
@@ -431,7 +432,10 @@
         padding-bottom: 55px;
         padding-right: 14%;
     }
- 
+
+    .athlets_item:nth-child(4) .number_athlets::before {
+        content: url(../images/underline_white_sm.png);
+    } 
                                  /*=====PLAYERS=====*/
     .players_preview {
         margin-top: 80px;
@@ -472,7 +476,13 @@
     .players_item .number_players {
         font-size: 14px;
         margin-top: 3.5px;
-        border-bottom: 4px solid #8f7bc8;
+    }
+
+    .players_item .number_players::before {
+        content: url(../images/underline_blue_sm.png);
+        bottom: 7px;
+        width: 15px;
+        height: 4px;
     }
 
     .players_item:nth-child(4) {
@@ -482,9 +492,11 @@
 
     .players_item:nth-child(4) .number_players {
         color: #8765dd;
-        border-bottom: 4px solid #fff;
     }
-    
+
+    .players_item:nth-child(4) .number_players::before {
+        content: url(../images/underline_white_sm.png);
+    }    
                                         /*=====ACTIVE=====*/
     .active_wrapper {
         flex-wrap: wrap;
@@ -530,10 +542,10 @@
         left: 20px;
     }
 
-    .number {
-        border-bottom: 4px solid #8f7bc8;
-        border-radius: 2px 2px;
-        width: 15px;
+    .number::before {
+        margin-left: 0;
+        margin-top: 10px;
+        content: url(../images/underline_active_sm.png);
     }
 
     .active_item {
