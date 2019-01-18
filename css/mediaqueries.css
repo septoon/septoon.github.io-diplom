@@ -1,4 +1,13 @@
 @media (min-width: 961px) and (max-width: 1700px) {
+    .active_item {
+        padding-right: 100px;
+        padding-left: 80px;
+    }
+
+    .active_wrapper:nth-child(2) .active_item {
+        padding-left: 100px;
+    }
+
     .be_active h2 {
         font-size: 60px;
     }
