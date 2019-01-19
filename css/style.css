@@ -74,19 +74,23 @@ p {
     display: block;
     margin: auto;
     width: 190px;
-    margin-bottom: 266px;
+    margin-bottom: 273px;       
+    line-height: 1.2;
     z-index: 2;
 }
 
 h1 {
     position: relative;
-    margin-left: 10%;
+    margin-left: 9.7%;
     margin-bottom: 194px;
     z-index: 2;
+    letter-spacing: 4px;
 }
 
 h1 span {
-    margin-left: 452px;
+    display: block;
+    margin-left: 26%;
+    margin-top: -19px;
 }
 
 .buttons {
@@ -116,13 +120,13 @@ h1 span {
 }
 
 .btn:nth-child(1) {
-    padding: 13px 64px 16px 38px;
+    padding: 14.5px 64px 14.5px 38px;
     margin-right: 25px;
 }
 
 
 .btn:nth-child(2) {
-    padding: 14px 84px 15px 57px;
+    padding: 14.5px 84px 14.5px 57px;
     margin-left: 25px;
     text-align: left;
 }
@@ -191,11 +195,14 @@ h1 span {
 }
 
 .athlets_item .number_athlets::before {
+    content: '';
     position: absolute;
-    bottom: 9px;
-    content: url(../images/underline_blue.png);
-    width: 20px;
-    height: 5px;
+    height: 5px; 
+    left: 0;
+    right: 0;
+    background-color: #5e42b0;
+    border-radius: 2px;
+    bottom: -5px;
 }
 
 .athlets_item:nth-child(3) {
@@ -211,7 +218,7 @@ h1 span {
 }
 
 .athlets_item:nth-child(4) .number_athlets::before {
-    content: url(../images/underline_white.png);
+    background-color: #efefef;
 }
 
 .athlets_item:nth-child(4) p {
@@ -248,11 +255,14 @@ h1 span {
 }
 
 .players_item .number_players::before {
+    content: '';
     position: absolute;
-    bottom: 9px;
-    content: url(../images/underline_blue.png);
-    width: 20px;
-    height: 5px;
+    height: 5px; 
+    left: 0;
+    right: 0;
+    background-color: #5e42b0;
+    border-radius: 2px;
+    bottom: -5px;
 }
 
 .players_item:nth-child(2) {
@@ -281,7 +291,7 @@ h1 span {
 }
 
 .players_item:nth-child(4) .number_players::before {
-    content: url(../images/underline_white.png);
+    background-color: #fff;
 }
 
 .players_item:nth-child(4) p {
@@ -339,12 +349,21 @@ h1 span {
     background-color: #5e42b0;
 }
 
-.number::before {
-    position: absolute;
-    margin-top: 15px;
-    margin-left: 1px;
-    content: url(../images/underline_active.png);
+.number{
+    position: relative;
 }
+
+.number::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 5px; 
+    background-color: #ffffff;
+    opacity: 0.3; /* Надо задать правильное значение по макету */
+    border-radius: 5px;
+    bottom: -10px; /* Надо задать правильное значение по макету */
+  }
 
 .active_item {
     overflow: hidden;
