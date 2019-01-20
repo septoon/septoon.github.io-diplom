@@ -359,10 +359,9 @@ h1 span {
     left: 0;
     right: 0;
     height: 5px; 
-    background-color: #ffffff;
-    opacity: 0.3; /* Надо задать правильное значение по макету */
+    background-color: #8f7bc8;
     border-radius: 5px;
-    bottom: -10px; /* Надо задать правильное значение по макету */
+    bottom: -10px; 
   }
 
 .active_item {
